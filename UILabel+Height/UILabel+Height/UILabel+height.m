@@ -11,12 +11,12 @@
 @implementation UILabel (height)
 /**
  *  给UILabel设置行间距和字间距
- *  @param space 间距
- *  @param text  内容
+ *  @param lineSpace 行间距
+ *  @param labelText  内容
  *  @param font  字体
- *  @param zpace  字间距 --> @10 这样设置  默认的话设置 0 就ok
+ *  @param wordSpace  字间距 --> @10 这样设置  默认的话设置 0 就ok
  */
--(void)setLineSpace:(CGFloat)space withLabelText:(NSString*)text withFont:(UIFont*)font withZspace:(NSNumber *)zspace Width:(CGFloat)width
+- (void)setSpace:(NSString*)labelText font:(UIFont*)font lineSpace:(CGFloat)lineSpace wordSpace:(NSNumber *)wordSpace width:(CGFloat)width
 {
     NSMutableParagraphStyle *paraStyle = [[NSMutableParagraphStyle alloc] init];
     paraStyle.lineBreakMode =NSLineBreakByCharWrapping;
@@ -32,7 +32,7 @@
     CGFloat height;
     CGFloat oneHeight;
     CGFloat rowHeight;
-    if (zspace == 0) {
+    if (wordSpace == 0) {
         dic =@{NSFontAttributeName:font,NSParagraphStyleAttributeName:paraStyle,NSKernAttributeName:@1.5f,
                };
     }else {
@@ -41,33 +41,38 @@
         // 计算文本的高度
         oneHeight = [@"这样貌似解决了" boundingRectWithSize:CGSizeMake(width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin| NSStringDrawingUsesFontLeading attributes:dic context:nil].size.height;
         
-        rowHeight = [text boundingRectWithSize:CGSizeMake(width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin| NSStringDrawingUsesFontLeading attributes:dic context:nil].size.height;
+        rowHeight = [labelText boundingRectWithSize:CGSizeMake(width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin| NSStringDrawingUsesFontLeading attributes:dic context:nil].size.height;
         if (rowHeight>oneHeight) {
             height = rowHeight;
-            paraStyle.lineSpacing = space; //设置行间距
-            dic =@{NSFontAttributeName:font,NSParagraphStyleAttributeName:paraStyle,NSKernAttributeName:zspace,
+            paraStyle.lineSpacing = lineSpace; //设置行间距
+            dic =@{NSFontAttributeName:font,NSParagraphStyleAttributeName:paraStyle,NSKernAttributeName:wordSpace,
                    };
         }
         else{
             height = oneHeight;
             paraStyle.lineSpacing = 0; //设置行间距
-            dic =@{NSFontAttributeName:font,NSParagraphStyleAttributeName:paraStyle,NSKernAttributeName:zspace,NSBaselineOffsetAttributeName:@(0),
+            dic =@{NSFontAttributeName:font,NSParagraphStyleAttributeName:paraStyle,NSKernAttributeName:wordSpace,NSBaselineOffsetAttributeName:@(0),
                    };
         }
     }
-    NSAttributedString *attributeStr = [[NSAttributedString alloc] initWithString:text attributes:dic];
+    NSAttributedString *attributeStr = [[NSAttributedString alloc] initWithString:labelText attributes:dic];
     
     self.attributedText = attributeStr;
+    
+    CGSize size = [labelText boundingRectWithSize:CGSizeMake(width,MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:dic context:nil].size;
+    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, size.width, size.height);
 }
+
+
 /**
- *  计算UILabel的高度(带有行间距的情况)
- *  @param text  内容
+ *  给UILabel设置行间距和字间距
+ *  @param lineSpace 行间距
+ *  @param labelText  内容
  *  @param font  字体
- *  @param width 宽度
- *  @return 高度
- *  @param zpace  字间距 --> @10 这样设置  默认的话设置 0 就ok
+ *  @param wordSpace  字间距 --> @10 这样设置  默认的话设置 0 就ok
  */
--(CGFloat)getSpaceLabelHeight:(NSString*)text withFont:(UIFont*)font withWidth:(CGFloat)width withSpace:(CGFloat)space withZspace:(NSNumber *)zpace{
+- (CGFloat)getHeight:(NSString*)labelText font:(UIFont*)font lineSpace:(CGFloat)lineSpace wordSpace:(NSNumber *)wordSpace width:(CGFloat)width
+{
     NSMutableParagraphStyle *paraStyle = [[NSMutableParagraphStyle alloc] init];
     paraStyle.lineBreakMode =NSLineBreakByCharWrapping;
     paraStyle.alignment =NSTextAlignmentLeft;
@@ -83,27 +88,27 @@
     CGFloat height;
     CGFloat oneHeight;
     CGFloat rowHeight;
-    if (zpace == 0) {
+    if (wordSpace == 0) {
         dic =@{NSFontAttributeName:font,NSParagraphStyleAttributeName:paraStyle,NSKernAttributeName:@1.5f
                };
     }else {
         // 计算文本的高度
         oneHeight = [@"这样貌似解决了" boundingRectWithSize:CGSizeMake(width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin| NSStringDrawingUsesFontLeading attributes:dic context:nil].size.height;
-        rowHeight = [text boundingRectWithSize:CGSizeMake(width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin| NSStringDrawingUsesFontLeading attributes:dic context:nil].size.height;
+        rowHeight = [labelText boundingRectWithSize:CGSizeMake(width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin| NSStringDrawingUsesFontLeading attributes:dic context:nil].size.height;
         if (rowHeight>oneHeight) {
             height = rowHeight;
-            paraStyle.lineSpacing = space; //设置行间距
-            dic =@{NSFontAttributeName:font,NSParagraphStyleAttributeName:paraStyle,NSKernAttributeName:zpace,
+            paraStyle.lineSpacing = lineSpace; //设置行间距
+            dic =@{NSFontAttributeName:font,NSParagraphStyleAttributeName:paraStyle,NSKernAttributeName:wordSpace,
                    };
         }
         else{
             height = oneHeight;
             paraStyle.lineSpacing = 0; //设置行间距
-            dic =@{NSFontAttributeName:font,NSParagraphStyleAttributeName:paraStyle,NSKernAttributeName:zpace,NSBaselineOffsetAttributeName:@(0),
+            dic =@{NSFontAttributeName:font,NSParagraphStyleAttributeName:paraStyle,NSKernAttributeName:wordSpace,NSBaselineOffsetAttributeName:@(0),
                    };
         }
     }
-    CGSize size = [text boundingRectWithSize:CGSizeMake(width,MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:dic context:nil].size;
+    CGSize size = [labelText boundingRectWithSize:CGSizeMake(width,MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:dic context:nil].size;
     return size.height;
 }
 @end

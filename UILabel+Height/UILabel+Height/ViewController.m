@@ -22,12 +22,16 @@
     if (string.length>40) {
         string = [string substringToIndex:39];
     }
-    [label setLineSpace:8 withLabelText:string withFont:[UIFont systemFontOfSize:20] withZspace:@1.5 Width:self.view.frame.size.width-100];
-    CGFloat height = [label getSpaceLabelHeight:string withFont:[UIFont systemFontOfSize:20] withWidth:self.view.frame.size.width-100 withSpace:8 withZspace:@1.5];
+    
+//    CGFloat height = [label getHeight:string font:[UIFont systemFontOfSize:20] lineSpace:2.5 wordSpace:@1.5 width:self.view.frame.size.width - 100];
+    
     label.numberOfLines = 0;
     label.backgroundColor = [UIColor redColor];
-    label.frame = CGRectMake(50, 100, self.view.frame.size.width-100, height);
+    label.frame = CGRectMake(50, 100, self.view.frame.size.width-100, 30);
     [self.view addSubview:label];
+    
+    [label setSpace:string font:[UIFont systemFontOfSize:20] lineSpace:2.5 wordSpace:@1.5 width:self.view.frame.size.width - 100];
+
 
 }
 
