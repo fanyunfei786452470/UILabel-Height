@@ -10,7 +10,7 @@
 
 @implementation NSString (Size)
 
-#pragma mark - 计算(指定/不限)行数文字高度,可以处理计算带行间距、字间距、首行缩进
+#pragma mark - 计算(指定/不限)行数文字高度,可以处理计算带行间距、字间距
 
 - (CGFloat)boundingRectWithSize:(CGSize)size
                            font:(UIFont*)font
