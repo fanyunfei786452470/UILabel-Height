@@ -1,18 +1,17 @@
 //
-//  LabelHeightDemoTests.m
-//  LabelHeightDemoTests
+//  UILabelHeightTests.m
+//  UILabelHeightTests
 //
-//  Created by 范云飞 on 2019/10/12.
-//  Copyright © 2019 范云飞. All rights reserved.
+//  Created by 范云飞 on 2020/12/31.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface LabelHeightDemoTests : XCTestCase
+@interface UILabelHeightTests : XCTestCase
 
 @end
 
-@implementation LabelHeightDemoTests
+@implementation UILabelHeightTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

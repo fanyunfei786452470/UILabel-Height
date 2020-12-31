@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  LabelHeightDemo
+//  UILabelHeight
 //
 //  Created by 范云飞 on 2019/10/12.
 //  Copyright © 2019 范云飞. All rights reserved.
@@ -46,7 +46,7 @@
     // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
     @synchronized (self) {
         if (_persistentContainer == nil) {
-            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"LabelHeightDemo"];
+            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"UILabelHeight"];
             [_persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *storeDescription, NSError *error) {
                 if (error != nil) {
                     // Replace this implementation with code to handle the error appropriately.

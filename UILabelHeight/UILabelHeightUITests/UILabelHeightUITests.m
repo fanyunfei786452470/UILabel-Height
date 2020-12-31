@@ -1,18 +1,17 @@
 //
-//  LabelHeightDemoUITests.m
-//  LabelHeightDemoUITests
+//  UILabelHeightUITests.m
+//  UILabelHeightUITests
 //
-//  Created by 范云飞 on 2019/10/12.
-//  Copyright © 2019 范云飞. All rights reserved.
+//  Created by 范云飞 on 2020/12/31.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface LabelHeightDemoUITests : XCTestCase
+@interface UILabelHeightUITests : XCTestCase
 
 @end
 
-@implementation LabelHeightDemoUITests
+@implementation UILabelHeightUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -39,7 +38,7 @@
 - (void)testLaunchPerformance {
     if (@available(macOS 10.15, iOS 13.0, tvOS 13.0, *)) {
         // This measures how long it takes to launch your application.
-        [self measureWithMetrics:@[XCTOSSignpostMetric.applicationLaunchMetric] block:^{
+        [self measureWithMetrics:@[[[XCTApplicationLaunchMetric alloc] init]] block:^{
             [[[XCUIApplication alloc] init] launch];
         }];
     }
