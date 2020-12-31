@@ -8,7 +8,7 @@
 
 #import "UnLimitNumberOfLineController.h"
 
-#import "UILabel+Height.h"
+#import "UILabel+Attributed.h"
 #import "NSString+Size.h"
 
 #import "Masonry.h"

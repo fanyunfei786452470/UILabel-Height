@@ -1,5 +1,5 @@
 //
-//  UILabel+Height.h
+//  UILabel+Attributed.h
 //  KSForeignTrade
 //
 //  Created by 范云飞 on 2019/10/12.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UILabel (Height)
+@interface UILabel (Attributed)
 
 /// UILabel 设置富文本
 /// @param text 文本

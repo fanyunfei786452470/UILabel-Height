@@ -27,7 +27,7 @@
 		0F487632237AE2D90086C36F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F487627237AE2D90086C36F /* MASConstraint.m */; };
 		0F487633237AE2D90086C36F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F487629237AE2D90086C36F /* MASViewConstraint.m */; };
 		0F487634237AE2D90086C36F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F48762A237AE2D90086C36F /* MASViewAttribute.m */; };
-		0F48763D237AE2FF0086C36F /* UILabel+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F487635237AE2FE0086C36F /* UILabel+Height.m */; };
+		0F48763D237AE2FF0086C36F /* UILabel+Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F487635237AE2FE0086C36F /* UILabel+Attributed.m */; };
 		0F48763E237AE2FF0086C36F /* LimitNumberOfLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F487637237AE2FE0086C36F /* LimitNumberOfLineController.m */; };
 		0F48763F237AE2FF0086C36F /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F487638237AE2FF0086C36F /* NSString+Size.m */; };
 		0F487640237AE2FF0086C36F /* UnLimitNumberOfLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F48763A237AE2FF0086C36F /* UnLimitNumberOfLineController.m */; };
@@ -95,14 +95,14 @@
 		0F487628237AE2D90086C36F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		0F487629237AE2D90086C36F /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		0F48762A237AE2D90086C36F /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		0F487635237AE2FE0086C36F /* UILabel+Height.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Height.m"; sourceTree = "<group>"; };
+		0F487635237AE2FE0086C36F /* UILabel+Attributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Attributed.m"; sourceTree = "<group>"; };
 		0F487636237AE2FE0086C36F /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
 		0F487637237AE2FE0086C36F /* LimitNumberOfLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitNumberOfLineController.m; sourceTree = "<group>"; };
 		0F487638237AE2FF0086C36F /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
 		0F487639237AE2FF0086C36F /* UnLimitNumberOfLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnLimitNumberOfLineController.h; sourceTree = "<group>"; };
 		0F48763A237AE2FF0086C36F /* UnLimitNumberOfLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnLimitNumberOfLineController.m; sourceTree = "<group>"; };
 		0F48763B237AE2FF0086C36F /* LimitNumberOfLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitNumberOfLineController.h; sourceTree = "<group>"; };
-		0F48763C237AE2FF0086C36F /* UILabel+Height.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Height.h"; sourceTree = "<group>"; };
+		0F48763C237AE2FF0086C36F /* UILabel+Attributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Attributed.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +153,7 @@
 		0F4875D8237AE2670086C36F /* LabelHeightDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0FF77A7A259DA57200BF059F /* Classes */,
 				0F487611237AE2D90086C36F /* Masonry */,
 				0F4875D9237AE2670086C36F /* AppDelegate.h */,
 				0F4875DA237AE2670086C36F /* AppDelegate.m */,
@@ -164,10 +165,6 @@
 				0F487637237AE2FE0086C36F /* LimitNumberOfLineController.m */,
 				0F487639237AE2FF0086C36F /* UnLimitNumberOfLineController.h */,
 				0F48763A237AE2FF0086C36F /* UnLimitNumberOfLineController.m */,
-				0F487636237AE2FE0086C36F /* NSString+Size.h */,
-				0F487638237AE2FF0086C36F /* NSString+Size.m */,
-				0F48763C237AE2FF0086C36F /* UILabel+Height.h */,
-				0F487635237AE2FE0086C36F /* UILabel+Height.m */,
 				0F4875E2237AE2670086C36F /* Main.storyboard */,
 				0F4875E8237AE26A0086C36F /* Assets.xcassets */,
 				0F4875EA237AE26A0086C36F /* LaunchScreen.storyboard */,
@@ -226,6 +223,17 @@
 				0F48762A237AE2D90086C36F /* MASViewAttribute.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		0FF77A7A259DA57200BF059F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F487636237AE2FE0086C36F /* NSString+Size.h */,
+				0F487638237AE2FF0086C36F /* NSString+Size.m */,
+				0F48763C237AE2FF0086C36F /* UILabel+Attributed.h */,
+				0F487635237AE2FE0086C36F /* UILabel+Attributed.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,7 +382,7 @@
 				0F48762C237AE2D90086C36F /* ViewController+MASAdditions.m in Sources */,
 				0F4875DE237AE2670086C36F /* SceneDelegate.m in Sources */,
 				0F487633237AE2D90086C36F /* MASViewConstraint.m in Sources */,
-				0F48763D237AE2FF0086C36F /* UILabel+Height.m in Sources */,
+				0F48763D237AE2FF0086C36F /* UILabel+Attributed.m in Sources */,
 				0F48762B237AE2D90086C36F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				0F487632237AE2D90086C36F /* MASConstraint.m in Sources */,
 			);

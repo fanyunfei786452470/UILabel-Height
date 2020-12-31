@@ -1,12 +1,12 @@
 //
-//  UILabel+Height.m
+//  UILabel+Attributed.m
 //  KSForeignTrade
 //
 //  Created by 范云飞 on 2019/10/12.
 //  Copyright © 2019 kingstar. All rights reserved.
 //
 
-#import "UILabel+Height.h"
+#import "UILabel+Attributed.h"
 
 @implementation UILabel (Height)
 
