@@ -8,18 +8,15 @@
 
 #import "UILabel+Attributed.h"
 
-@implementation UILabel (Height)
+@implementation UILabel (Attributed)
 
-- (void)setLabelAttributedText:(NSString *)text
-                          font:(UIFont *)font
-                     lineSpace:(CGFloat)lineSpace
-                     wardSpace:(CGFloat)wordSpace {
+- (void)setLabelAttributedText:(NSString *)text font:(UIFont *)font lineSpace:(CGFloat)lineSpace wardSpace:(CGFloat)wordSpace {
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc]init];
     paragraphStyle.lineBreakMode = NSLineBreakByCharWrapping;
     paragraphStyle.lineSpacing = lineSpace;
-    NSDictionary *attributes = @{ NSFontAttributeName:font,
-                                  NSParagraphStyleAttributeName:paragraphStyle,
-                                  NSKernAttributeName:@(wordSpace)};
+    NSDictionary *attributes = @{NSFontAttributeName:font,
+                                 NSParagraphStyleAttributeName:paragraphStyle,
+                                 NSKernAttributeName:@(wordSpace)};
     self.attributedText = [[NSAttributedString alloc]initWithString:text attributes:attributes];
 }
 
