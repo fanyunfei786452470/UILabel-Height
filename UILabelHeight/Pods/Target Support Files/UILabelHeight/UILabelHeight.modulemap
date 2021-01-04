@@ -1,0 +1,6 @@
+framework module UILabelHeight {
+  umbrella header "UILabelHeight-umbrella.h"
+
+  export *
+  module * { export * }
+}

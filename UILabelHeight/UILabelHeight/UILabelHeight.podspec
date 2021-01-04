@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UILabelHeight"
-  spec.version      = "0.0.32"
+  spec.version      = "0.0.31"
   spec.summary      = "计算(指定/不限)行数文字高度,可以处理计算带行间距、字间距"
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "UILabelHeight/Classes/**/*.{h,m}"
+  spec.source_files  = "Classes/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

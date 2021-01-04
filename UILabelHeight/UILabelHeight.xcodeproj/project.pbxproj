@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,20 +16,11 @@
 		0F2887C3259DE0B500774830 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2887C2259DE0B500774830 /* main.m */; };
 		0F2887CD259DE0B500774830 /* UILabelHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2887CC259DE0B500774830 /* UILabelHeightTests.m */; };
 		0F2887D8259DE0B500774830 /* UILabelHeightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2887D7259DE0B500774830 /* UILabelHeightUITests.m */; };
-		0F2887F0259DE11A00774830 /* UILabel+Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2887EC259DE11A00774830 /* UILabel+Attributed.m */; };
-		0F2887F1259DE11A00774830 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2887EE259DE11A00774830 /* NSString+Size.m */; };
-		0F28880F259DE12200774830 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2887F7259DE12200774830 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		0F288810259DE12200774830 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F288800259DE12200774830 /* ViewController+MASAdditions.m */; };
-		0F288811259DE12200774830 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F288804259DE12200774830 /* MASCompositeConstraint.m */; };
-		0F288812259DE12200774830 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F288805259DE12200774830 /* MASConstraintMaker.m */; };
-		0F288813259DE12200774830 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F288806259DE12200774830 /* MASLayoutConstraint.m */; };
-		0F288814259DE12200774830 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F288807259DE12200774830 /* NSArray+MASAdditions.m */; };
-		0F288815259DE12200774830 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F288808259DE12200774830 /* View+MASAdditions.m */; };
-		0F288816259DE12200774830 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F28880B259DE12200774830 /* MASConstraint.m */; };
-		0F288817259DE12200774830 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F28880D259DE12200774830 /* MASViewConstraint.m */; };
-		0F288818259DE12200774830 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F28880E259DE12200774830 /* MASViewAttribute.m */; };
 		0F288820259DE12D00774830 /* LimitNumberOfLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F28881C259DE12D00774830 /* LimitNumberOfLineController.m */; };
 		0F288821259DE12D00774830 /* UnLimitNumberOfLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F28881D259DE12D00774830 /* UnLimitNumberOfLineController.m */; };
+		405486CCD1B3D7F0CD1F3CB5 /* Pods_UILabelHeight_UILabelHeightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4D00CC0EA8B03DBC9B4566 /* Pods_UILabelHeight_UILabelHeightUITests.framework */; };
+		90115F7FC2FE813361A592C1 /* Pods_UILabelHeight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED0EDF089D7191C612E2768 /* Pods_UILabelHeight.framework */; };
+		E189E35DF86375FD2897E3F6 /* Pods_UILabelHeightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9C77843CA588571D94947A /* Pods_UILabelHeightTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,39 +59,19 @@
 		0F2887D3259DE0B500774830 /* UILabelHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UILabelHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2887D7259DE0B500774830 /* UILabelHeightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelHeightUITests.m; sourceTree = "<group>"; };
 		0F2887D9259DE0B500774830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F2887EC259DE11A00774830 /* UILabel+Attributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Attributed.m"; sourceTree = "<group>"; };
-		0F2887ED259DE11A00774830 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
-		0F2887EE259DE11A00774830 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
-		0F2887EF259DE11A00774830 /* UILabel+Attributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Attributed.h"; sourceTree = "<group>"; };
-		0F2887F6259DE12200774830 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		0F2887F7259DE12200774830 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		0F2887F8259DE12200774830 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		0F2887F9259DE12200774830 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		0F2887FA259DE12200774830 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		0F2887FB259DE12200774830 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		0F2887FC259DE12200774830 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		0F2887FD259DE12200774830 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		0F2887FE259DE12200774830 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		0F2887FF259DE12200774830 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		0F288800259DE12200774830 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		0F288801259DE12200774830 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		0F288802259DE12200774830 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		0F288803259DE12200774830 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		0F288804259DE12200774830 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		0F288805259DE12200774830 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		0F288806259DE12200774830 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		0F288807259DE12200774830 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		0F288808259DE12200774830 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		0F288809259DE12200774830 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		0F28880A259DE12200774830 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		0F28880B259DE12200774830 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		0F28880C259DE12200774830 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		0F28880D259DE12200774830 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		0F28880E259DE12200774830 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
 		0F28881C259DE12D00774830 /* LimitNumberOfLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitNumberOfLineController.m; sourceTree = "<group>"; };
 		0F28881D259DE12D00774830 /* UnLimitNumberOfLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnLimitNumberOfLineController.m; sourceTree = "<group>"; };
 		0F28881E259DE12D00774830 /* UnLimitNumberOfLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnLimitNumberOfLineController.h; sourceTree = "<group>"; };
 		0F28881F259DE12D00774830 /* LimitNumberOfLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitNumberOfLineController.h; sourceTree = "<group>"; };
+		10241270D6598D167AB60E33 /* Pods-UILabelHeight-UILabelHeightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabelHeight-UILabelHeightUITests.debug.xcconfig"; path = "Target Support Files/Pods-UILabelHeight-UILabelHeightUITests/Pods-UILabelHeight-UILabelHeightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19D951E48532C7E2E2E670EF /* Pods-UILabelHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabelHeight.debug.xcconfig"; path = "Target Support Files/Pods-UILabelHeight/Pods-UILabelHeight.debug.xcconfig"; sourceTree = "<group>"; };
+		29663C33BF9589166AE0005F /* Pods-UILabelHeightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabelHeightTests.debug.xcconfig"; path = "Target Support Files/Pods-UILabelHeightTests/Pods-UILabelHeightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CA5679C7296C13858B93547 /* Pods-UILabelHeightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabelHeightTests.release.xcconfig"; path = "Target Support Files/Pods-UILabelHeightTests/Pods-UILabelHeightTests.release.xcconfig"; sourceTree = "<group>"; };
+		39DAF4A3EBCD3861EF6710BB /* Pods-UILabelHeight-UILabelHeightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabelHeight-UILabelHeightUITests.release.xcconfig"; path = "Target Support Files/Pods-UILabelHeight-UILabelHeightUITests/Pods-UILabelHeight-UILabelHeightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E9C77843CA588571D94947A /* Pods_UILabelHeightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UILabelHeightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA081468487EA0BA1FCAA60 /* Pods-UILabelHeight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UILabelHeight.release.xcconfig"; path = "Target Support Files/Pods-UILabelHeight/Pods-UILabelHeight.release.xcconfig"; sourceTree = "<group>"; };
+		5ED0EDF089D7191C612E2768 /* Pods_UILabelHeight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UILabelHeight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4D00CC0EA8B03DBC9B4566 /* Pods_UILabelHeight_UILabelHeightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UILabelHeight_UILabelHeightUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90115F7FC2FE813361A592C1 /* Pods_UILabelHeight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E189E35DF86375FD2897E3F6 /* Pods_UILabelHeightTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405486CCD1B3D7F0CD1F3CB5 /* Pods_UILabelHeight_UILabelHeightUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +109,8 @@
 				0F2887CB259DE0B500774830 /* UILabelHeightTests */,
 				0F2887D6259DE0B500774830 /* UILabelHeightUITests */,
 				0F2887AE259DE0B100774830 /* Products */,
+				70019042DEF13B27FE932ADE /* Pods */,
+				320C0CB5BC45BE9745112DBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,8 +127,6 @@
 		0F2887AF259DE0B100774830 /* UILabelHeight */ = {
 			isa = PBXGroup;
 			children = (
-				0F2887F5259DE12200774830 /* Masonry */,
-				0F2887EB259DE11A00774830 /* Classes */,
 				0F2887B0259DE0B100774830 /* AppDelegate.h */,
 				0F2887B1259DE0B100774830 /* AppDelegate.m */,
 				0F2887B3259DE0B100774830 /* SceneDelegate.h */,
@@ -190,47 +164,27 @@
 			path = UILabelHeightUITests;
 			sourceTree = "<group>";
 		};
-		0F2887EB259DE11A00774830 /* Classes */ = {
+		320C0CB5BC45BE9745112DBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F2887EC259DE11A00774830 /* UILabel+Attributed.m */,
-				0F2887ED259DE11A00774830 /* NSString+Size.h */,
-				0F2887EE259DE11A00774830 /* NSString+Size.m */,
-				0F2887EF259DE11A00774830 /* UILabel+Attributed.h */,
+				5ED0EDF089D7191C612E2768 /* Pods_UILabelHeight.framework */,
+				DE4D00CC0EA8B03DBC9B4566 /* Pods_UILabelHeight_UILabelHeightUITests.framework */,
+				3E9C77843CA588571D94947A /* Pods_UILabelHeightTests.framework */,
 			);
-			path = Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0F2887F5259DE12200774830 /* Masonry */ = {
+		70019042DEF13B27FE932ADE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F2887F6259DE12200774830 /* MASCompositeConstraint.h */,
-				0F2887F7259DE12200774830 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				0F2887F8259DE12200774830 /* MASConstraint+Private.h */,
-				0F2887F9259DE12200774830 /* MASLayoutConstraint.h */,
-				0F2887FA259DE12200774830 /* NSArray+MASShorthandAdditions.h */,
-				0F2887FB259DE12200774830 /* MASConstraintMaker.h */,
-				0F2887FC259DE12200774830 /* View+MASAdditions.h */,
-				0F2887FD259DE12200774830 /* NSArray+MASAdditions.h */,
-				0F2887FE259DE12200774830 /* MASUtilities.h */,
-				0F2887FF259DE12200774830 /* MASViewAttribute.h */,
-				0F288800259DE12200774830 /* ViewController+MASAdditions.m */,
-				0F288801259DE12200774830 /* MASViewConstraint.h */,
-				0F288802259DE12200774830 /* MASConstraint.h */,
-				0F288803259DE12200774830 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				0F288804259DE12200774830 /* MASCompositeConstraint.m */,
-				0F288805259DE12200774830 /* MASConstraintMaker.m */,
-				0F288806259DE12200774830 /* MASLayoutConstraint.m */,
-				0F288807259DE12200774830 /* NSArray+MASAdditions.m */,
-				0F288808259DE12200774830 /* View+MASAdditions.m */,
-				0F288809259DE12200774830 /* View+MASShorthandAdditions.h */,
-				0F28880A259DE12200774830 /* Masonry.h */,
-				0F28880B259DE12200774830 /* MASConstraint.m */,
-				0F28880C259DE12200774830 /* ViewController+MASAdditions.h */,
-				0F28880D259DE12200774830 /* MASViewConstraint.m */,
-				0F28880E259DE12200774830 /* MASViewAttribute.m */,
+				19D951E48532C7E2E2E670EF /* Pods-UILabelHeight.debug.xcconfig */,
+				5AA081468487EA0BA1FCAA60 /* Pods-UILabelHeight.release.xcconfig */,
+				10241270D6598D167AB60E33 /* Pods-UILabelHeight-UILabelHeightUITests.debug.xcconfig */,
+				39DAF4A3EBCD3861EF6710BB /* Pods-UILabelHeight-UILabelHeightUITests.release.xcconfig */,
+				29663C33BF9589166AE0005F /* Pods-UILabelHeightTests.debug.xcconfig */,
+				2CA5679C7296C13858B93547 /* Pods-UILabelHeightTests.release.xcconfig */,
 			);
-			path = Masonry;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F2887DC259DE0B500774830 /* Build configuration list for PBXNativeTarget "UILabelHeight" */;
 			buildPhases = (
+				27CA27F848841A24F5559172 /* [CP] Check Pods Manifest.lock */,
 				0F2887A9259DE0B100774830 /* Sources */,
 				0F2887AA259DE0B100774830 /* Frameworks */,
 				0F2887AB259DE0B100774830 /* Resources */,
+				3BAA4A240203F1B3D29E3EEE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F2887DF259DE0B500774830 /* Build configuration list for PBXNativeTarget "UILabelHeightTests" */;
 			buildPhases = (
+				50F8DF7081AB50BC2D33CD1E /* [CP] Check Pods Manifest.lock */,
 				0F2887C4259DE0B500774830 /* Sources */,
 				0F2887C5259DE0B500774830 /* Frameworks */,
 				0F2887C6259DE0B500774830 /* Resources */,
@@ -275,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F2887E2259DE0B500774830 /* Build configuration list for PBXNativeTarget "UILabelHeightUITests" */;
 			buildPhases = (
+				5AEB09F167A990AD84EBC9A9 /* [CP] Check Pods Manifest.lock */,
 				0F2887CF259DE0B500774830 /* Sources */,
 				0F2887D0259DE0B500774830 /* Frameworks */,
 				0F2887D1259DE0B500774830 /* Resources */,
+				B5F42A99B77079AF75E54BA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,28 +316,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27CA27F848841A24F5559172 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UILabelHeight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BAA4A240203F1B3D29E3EEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UILabelHeight/Pods-UILabelHeight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UILabelHeight/Pods-UILabelHeight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UILabelHeight/Pods-UILabelHeight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50F8DF7081AB50BC2D33CD1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UILabelHeightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AEB09F167A990AD84EBC9A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UILabelHeight-UILabelHeightUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F42A99B77079AF75E54BA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UILabelHeight-UILabelHeightUITests/Pods-UILabelHeight-UILabelHeightUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UILabelHeight-UILabelHeightUITests/Pods-UILabelHeight-UILabelHeightUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UILabelHeight-UILabelHeightUITests/Pods-UILabelHeight-UILabelHeightUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F2887A9259DE0B100774830 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F288817259DE12200774830 /* MASViewConstraint.m in Sources */,
 				0F2887B8259DE0B100774830 /* ViewController.m in Sources */,
-				0F288812259DE12200774830 /* MASConstraintMaker.m in Sources */,
 				0F288820259DE12D00774830 /* LimitNumberOfLineController.m in Sources */,
 				0F2887B2259DE0B100774830 /* AppDelegate.m in Sources */,
-				0F288810259DE12200774830 /* ViewController+MASAdditions.m in Sources */,
-				0F28880F259DE12200774830 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				0F288811259DE12200774830 /* MASCompositeConstraint.m in Sources */,
-				0F2887F0259DE11A00774830 /* UILabel+Attributed.m in Sources */,
-				0F288813259DE12200774830 /* MASLayoutConstraint.m in Sources */,
-				0F288815259DE12200774830 /* View+MASAdditions.m in Sources */,
-				0F288814259DE12200774830 /* NSArray+MASAdditions.m in Sources */,
 				0F2887C3259DE0B500774830 /* main.m in Sources */,
-				0F2887F1259DE11A00774830 /* NSString+Size.m in Sources */,
 				0F288821259DE12D00774830 /* UnLimitNumberOfLineController.m in Sources */,
-				0F288818259DE12200774830 /* MASViewAttribute.m in Sources */,
-				0F288816259DE12200774830 /* MASConstraint.m in Sources */,
 				0F2887B5259DE0B100774830 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,6 +598,7 @@
 		};
 		0F2887DD259DE0B500774830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D951E48532C7E2E2E670EF /* Pods-UILabelHeight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -566,6 +617,7 @@
 		};
 		0F2887DE259DE0B500774830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA081468487EA0BA1FCAA60 /* Pods-UILabelHeight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -584,6 +636,7 @@
 		};
 		0F2887E0259DE0B500774830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29663C33BF9589166AE0005F /* Pods-UILabelHeightTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -604,6 +657,7 @@
 		};
 		0F2887E1259DE0B500774830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA5679C7296C13858B93547 /* Pods-UILabelHeightTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -624,6 +678,7 @@
 		};
 		0F2887E3259DE0B500774830 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10241270D6598D167AB60E33 /* Pods-UILabelHeight-UILabelHeightUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H33EPS92X;
@@ -642,6 +697,7 @@
 		};
 		0F2887E4259DE0B500774830 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DAF4A3EBCD3861EF6710BB /* Pods-UILabelHeight-UILabelHeightUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H33EPS92X;

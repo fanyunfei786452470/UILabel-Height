@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - UILabelHeight (0.0.2):
+    - Masonry
+
+DEPENDENCIES:
+  - UILabelHeight (~> 0.0.2)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - UILabelHeight
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  UILabelHeight: 4776092e2b5a45a138b54be6e26af3747479d4c5
+
+PODFILE CHECKSUM: 8c00835ece2af5cb51975030572f305215a52838
+
+COCOAPODS: 1.10.0
